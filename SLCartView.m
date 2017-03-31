@@ -28,7 +28,7 @@
         // 27x18
         _tagView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Tag"]];
         _tagView.alpha = 0;
-        _tagView.centerY = self.height / 2;
+        _tagView.center = CGPointMake(_tagView.center.x, self.bounds.size.height / 2);
         [self addSubview:_tagView];
 
         _badgeLbl = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 22, 18)];
