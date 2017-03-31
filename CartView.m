@@ -1,14 +1,14 @@
 //
-//  SLCartView.m
-//  SLMobile
+//  CartView.m
+//  CartView
 //
 //  Created by shaohua on 12/5/13.
 //
 //
 
-#import "SLCartView.h"
+#import "CartView.h"
 
-@implementation SLCartView {
+@implementation CartView {
     UILabel *_badgeLbl;
     UIView *_blurView;
     UIView *_tagView;

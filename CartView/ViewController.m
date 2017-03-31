@@ -7,13 +7,13 @@
 //
 
 #import "ViewController.h"
-#import "SLCartView.h"
+#import "CartView.h"
 
 static int count = 0;
 
 @interface ViewController ()
 
-@property (nonatomic) SLCartView *cartView;
+@property (nonatomic) CartView *cartView;
 
 @end
 
@@ -24,7 +24,7 @@ static int count = 0;
 
     self.view.backgroundColor = [UIColor whiteColor];
 
-    _cartView = [[SLCartView alloc] init];
+    _cartView = [[CartView alloc] init];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:_cartView];
 
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(onLeftTapped)];

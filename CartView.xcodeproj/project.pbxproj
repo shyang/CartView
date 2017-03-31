@@ -14,7 +14,7 @@
 		ADB82A841E8E3BDA00D4A28E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB82A831E8E3BDA00D4A28E /* Assets.xcassets */; };
 		ADB82A871E8E3BDA00D4A28E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB82A851E8E3BDA00D4A28E /* LaunchScreen.storyboard */; };
 		ADB82A921E8E3C0200D4A28E /* Cart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADB82A8E1E8E3C0200D4A28E /* Cart@2x.png */; };
-		ADB82A931E8E3C0200D4A28E /* SLCartView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB82A901E8E3C0200D4A28E /* SLCartView.m */; };
+		ADB82A931E8E3C0200D4A28E /* CartView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB82A901E8E3C0200D4A28E /* CartView.m */; };
 		ADB82A941E8E3C0200D4A28E /* Tag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADB82A911E8E3C0200D4A28E /* Tag@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +30,8 @@
 		ADB82A861E8E3BDA00D4A28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADB82A881E8E3BDA00D4A28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADB82A8E1E8E3C0200D4A28E /* Cart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cart@2x.png"; sourceTree = SOURCE_ROOT; };
-		ADB82A8F1E8E3C0200D4A28E /* SLCartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLCartView.h; sourceTree = SOURCE_ROOT; };
-		ADB82A901E8E3C0200D4A28E /* SLCartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLCartView.m; sourceTree = SOURCE_ROOT; };
+		ADB82A8F1E8E3C0200D4A28E /* CartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartView.h; sourceTree = SOURCE_ROOT; };
+		ADB82A901E8E3C0200D4A28E /* CartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartView.m; sourceTree = SOURCE_ROOT; };
 		ADB82A911E8E3C0200D4A28E /* Tag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tag@2x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -66,8 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				ADB82A8E1E8E3C0200D4A28E /* Cart@2x.png */,
-				ADB82A8F1E8E3C0200D4A28E /* SLCartView.h */,
-				ADB82A901E8E3C0200D4A28E /* SLCartView.m */,
+				ADB82A8F1E8E3C0200D4A28E /* CartView.h */,
+				ADB82A901E8E3C0200D4A28E /* CartView.m */,
 				ADB82A911E8E3C0200D4A28E /* Tag@2x.png */,
 				ADB82A7A1E8E3BDA00D4A28E /* AppDelegate.h */,
 				ADB82A7B1E8E3BDA00D4A28E /* AppDelegate.m */,
@@ -166,7 +166,7 @@
 				ADB82A7F1E8E3BDA00D4A28E /* ViewController.m in Sources */,
 				ADB82A7C1E8E3BDA00D4A28E /* AppDelegate.m in Sources */,
 				ADB82A791E8E3BDA00D4A28E /* main.m in Sources */,
-				ADB82A931E8E3C0200D4A28E /* SLCartView.m in Sources */,
+				ADB82A931E8E3C0200D4A28E /* CartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
